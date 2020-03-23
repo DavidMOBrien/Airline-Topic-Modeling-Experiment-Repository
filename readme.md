@@ -24,3 +24,5 @@ Future Ideas:
 - Use MALLET on the tweets of all companies together to infer a topic model consisting of tweets directed at airlines in general.
 - Use PMI or some other topic modeling comparison technique to see what the topic models infered using MALLET have in common, some
     recurring themes in coherence, and what company's topic model has something unique about them.
+- Preprocess the data better, currently the MALLET output files have a bunch of links, Twitter handles, and other garbage included,
+    maybe a Python library such as Textacy which has capabilities of removing website URLs and Emojis could assist in this.
